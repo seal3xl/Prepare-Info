@@ -1,0 +1,187 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*,*:before,*:after {
+    box-sizing: border-box;
+}
+
+/* -------------------css reset------------------- */
+/* -------------------css reset------------------- */
+/* -------------------css reset------------------- */
+
+.wrap{
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	font-family: 微軟正黑體;
+}
+
+.info{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #B2EDF5;
+	width: 300px;
+	line-height: 1.5;
+	color: #004A87;
+}
+
+.info h1{
+	font-size: 24px;
+	margin: 20px auto;
+	font-weight: bolder;
+}
+
+.info h2{
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	margin: 10px auto;
+}
+
+.info p{
+	margin: 20px auto;
+}
+
+.info a{
+	text-decoration: none;
+	color: #64B4F5;
+}
+
+.info a:hover{
+	color: #004A87;
+}
+
+
+.quest{
+	width: 980px;
+	padding: 30px;
+
+}
+
+.quest h1{
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 1.5;
+	color: #B2EDF5;
+}
+
+.quest h1 span{
+	background-color:#004A87;
+	padding: 5px;
+	position: relative;
+	padding-left: 20px;
+}
+
+.quest p{
+	line-height: 1.5;
+	margin-top: 15px;
+	margin-bottom: 90px;
+	padding-left: 30px;
+	color: #004A87;
+
+}
+
+.quest ol{
+	line-height: 1.5;
+	margin-top: 15px;
+	margin-bottom: 40px;
+	padding-left: 50px;
+	color: #004A87;
+	list-style-type: decimal;
+}
+
+.quest li{
+	margin-bottom: 20px;
+}
+
+.quest li h1{
+	font-size: 18px;
+	font-weight: bolder;
+	color: #004A87;
+}
+
+.quest li p{
+	background-color:#DEFAFC;
+}
+
+.antigene{
+	color: red;
+	text-decoration: none;
+}
+
+.antigene:hover{
+	font-weight: bolder;
+	color: #B30800;
+}
+
+.endword{
+	font-size: 24px;
+	font-weight: bolder;
+}
+
+.quit{
+	color: red;
+}
+
+.schedule{
+	margin-top: -80px;
+	margin-bottom: 90px;
+	margin-left: 30px;
+}
+
+.schedule th,.schedule td{
+	border: 1px solid #004A87;
+	text-align: center;
+	height: 60px;
+	width: 110px;
+	line-height: 100%;
+	vertical-align: middle;
+	color: #004A87;
+}
