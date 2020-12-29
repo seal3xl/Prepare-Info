@@ -185,3 +185,19 @@ table {
 	vertical-align: middle;
 	color: #004A87;
 }
+
+
+@media(max-width:768px){
+	.info{
+		width: 200px;
+	}
+	
+	img{
+		width: 150px;
+		height: 150px;
+	}
+	
+	.info p{
+		font-size: 12px;
+	}
+}
