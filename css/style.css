@@ -188,8 +188,16 @@ table {
 
 
 @media(max-width:768px){
+	.wrap{
+		flex-direction: column;
+	}
+
 	.info{
-		width: 200px;
+		width: auto;
+	}
+
+	.quest{
+		width: auto;
 	}
 	
 	img{
@@ -197,7 +205,4 @@ table {
 		height: 150px;
 	}
 	
-	.info p{
-		font-size: 12px;
-	}
 }
